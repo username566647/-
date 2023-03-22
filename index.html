@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <style>
+        body {
+            background-color: rgb(169, 255, 226);
+            color: darkmagenta;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Викторина</h1>
+    <h2>Электроника и астрофизика</h2>
+    <div class="raund">
+        <h3>Раунд 1</h3>
+
+        <input type="button" value="Вопрос №1" onclick="question1()">
+        <input type="button" value="Вопрос №2" onclick="question2()">
+        <input type="button" value="Вопрос №3" onclick="question3()">
+        <input type="button" value="Вопрос №4" onclick="question4()">
+        <input type="button" value="Вопрос №5" onclick="question5()">
+        <input type="button" value="Вопрос №6" onclick="question10()">
+    </div>
+    <div class="raund">
+        <h3>Раунд 2</h3>
+        <input type="button" value="Вопрос №7" onclick="question11()">
+        <input type="button" value="Вопрос №8" onclick="question12()">
+        <input type="button" value="Вопрос №9" onclick="question13()">
+        <input type="button" value="Вопрос №10" onclick="question14()">
+        <input type="button" value="Вопрос №11" onclick="question15()">
+        <input type="button" value="Вопрос №12" onclick="question20()">
+    </div>
+    <div class="raund">
+        <h3>Раунд 3</h3>
+        <input type="button" value="Вопрос №13" onclick="question21()">
+        <input type="button" value="Вопрос №14" onclick="question22()">
+        <input type="button" value="Вопрос №15" onclick="question23()">
+        <input type="button" value="Вопрос №16" onclick="question24()">
+        <input type="button" value="Вопрос №17" onclick="question25()">
+        <input type="button" value="Вопрос №18" onclick="question30()">
+    </div>
+    <div class="raund">
+        <h3>Раунд 4</h3>
+        <input type="button" value="Вопрос №19" onclick="question31()">
+        <input type="button" value="Вопрос №20" onclick="question32()">
+        <input type="button" value="Вопрос №21" onclick="question33()">
+        <input type="button" value="Вопрос №22" onclick="question34()">
+        <input type="button" value="Вопрос №23" onclick="question35()">
+        <input type="button" value="Вопрос №24" onclick="question40()">
+    </div>
+    <script>
+        function question1() {
+            let quest = prompt("Как зовут персонажа из фиксиков, красного цвета? ")=="фаер"?alert("верно"):alert("неа")
+        }
+        function question2() {
+            let quest = prompt("Что носят фиксики на спине?")=="помогатор"?alert("верно"):alert("неа")
+        }
+        function question3() {
+            let quest = prompt("Сколько букв в слове астрофизика?")=="11"?alert("верно"):alert("неа")
+        }
+        function question4() {
+            let quest = prompt("Сколько корней в слове астрофизика?")=="2"?alert("верно"):alert("неа")
+        }
+        function question5() {
+            let quest = prompt("Какие две науки изучает астрофизика, помимо физики?")=="астрономию"?alert("верно"):alert("неа")
+        }
+        function question10() {
+            let quest = prompt("Телефон можно считать за электронику?")=="да"?alert("верно"):alert("неа")
+        }
+        function question11() {
+            let quest = prompt("Выберите электронику из следующего списка: стол, компьютер, стойка, бумага")=="компьютер"?alert("верно"):alert("неа")
+        }
+        function question12() {
+            let quest = prompt("Какого цвета солнце?")=="желтое"?alert("верно"):alert("неа")
+        }
+        function question13() {
+            let quest = prompt("Клавиатура и мышь это электроника?")=="нет"?alert("верно"):alert("неа")
+        }
+        function question14() {
+            let quest = prompt("Как зовут сестру двух щенков Рекса и Бублика в мультике Белка и Стрелка?")=="Дина"?alert("верно"):alert("неа")
+        }
+        function question15() {
+            let quest = prompt("Как зовут старшего щенка в мультике Белка и Стрелка?")=="Рекс"?alert("верно"):alert("неа")
+        }
+        function question20() {
+            let quest = prompt("Как называется четвертая планета от Солнца?")=="Марс"?alert("верно"):alert("неа")
+        }
+        function question21() {
+            let quest = prompt("Планета Земля какая по счету от Солнца?")=="третья"?alert("верно"):alert("неа")
+        }
+        function question22() {
+            let quest = prompt("H2o-что это")=="вода"?alert("верно"):alert("неа")
+        }
+        function question23() {
+            let quest = prompt("Какая наука изучает звезды и космос?")=="астрономия"?alert("верно"):alert("неа")
+        }
+        function question24() {
+            let quest = prompt("Как называется последняя планета от Солнца?")=="нептун"?alert("верно"):alert("неа")
+        }
+        function question25() {
+            let quest = prompt("Как называется первая планета от Солнца?")=="меркурий"?alert("верно"):alert("неа")
+        }
+        function question30() {
+            let quest = prompt("Если источник света поднести к глазу, зрачок увеличится?")=="нет"?alert("верно"):alert("неа")
+        }
+        function question31() {
+            let quest = prompt("На чем мы печатаем текст?")=="на клавиатуре"?alert("верно"):alert("неа")
+        }
+        function question32() {
+            let quest = prompt("Какой источник света находится в уличных фонарях?")=="лампочка"?alert("верно"):alert("неа")
+        }
+        function question33() {
+            let quest = prompt("Что светит на небе днем?")=="солнце"?alert("верно"):alert("неа")
+        }
+        function question34() {
+            let quest = prompt("Луна-спутник какой планеты?")=="Земля"?alert("верно"):alert("неа")
+        }
+        function question35() {
+            let quest = prompt("Сколько спутников у Земли?")=="1"?alert("верно"):alert("неа")
+        }
+        function question40() {
+            let quest = prompt("Сколько планет в солнечной системе?")=="восемь"?alert("верно"):alert("неа")
+        }
+    </script>
+</body>
+</html>
